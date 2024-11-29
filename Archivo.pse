@@ -1,0 +1,19 @@
+Algoritmo EjemploConCiclos
+Declaracion
+    Variables
+        entero i
+        entero suma
+Inicio
+    suma = 0
+    // Ciclo PARA
+    PARA (i = 1; i <= 5; i = i + 1) {
+        suma = suma + i
+    } FPARA
+    // Ciclo REPETIR HASTA
+    i = 1
+    REPETIR {
+        suma = suma - i
+        i = i + 1
+    } HASTA (i > 5)
+    ESCRIBIR suma
+Fin
